@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>📜 Qo‘ng‘irotlar davrida ijtimoiy-iqtisodiy hayot</title>
+
+<!-- Google Fonts: Merriweather serif va Inter sans-serif -->
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&family=Merriweather:ital,wght@0,300;0,400;0,700&display=swap" rel="stylesheet">
+
+<style>
+body {
+    font-family: 'Inter', sans-serif;
+    margin:0;
+    background: #fdf6e3; /* tarixiy bej fon */
+    color:#333;
+}
+header {
+    background:#b58900; /* tarixiy zardob */
+    color:#fff;
+    text-align:center;
+    padding:30px 20px;
+    font-family:'Merriweather', serif;
+    box-shadow:0 4px 10px rgba(0,0,0,0.2);
+}
+header h1 {font-size:2rem; margin:0;}
+header p {font-size:1rem; margin-top:6px;}
+
+main {
+    max-width:900px;
+    margin:30px auto;
+    padding:0 16px;
+}
+
+.card {
+    background:#fff;
+    border-radius:12px;
+    margin-bottom:20px;
+    overflow:hidden;
+    box-shadow:0 4px 12px rgba(0,0,0,0.1);
+    transition:transform 0.3s, box-shadow 0.3s;
+}
+.card:hover {transform:translateY(-4px); box-shadow:0 10px 20px rgba(0,0,0,0.15);}
+.card h2 {
+    margin:0;
+    padding:18px;
+    cursor:pointer;
+    background:#fef3c7;
+    font-family:'Merriweather', serif;
+    font-size:1.4rem;
+    display:flex;
+    align-items:center;
+    gap:10px;
+    transition:background 0.3s;
+}
+.card h2:hover {background:#fde68a;}
+.content {
+    display:none;
+    padding:16px;
+    line-height:1.7;
+    font-size:1rem;
+}
+.content img, .content video {
+    width:100%;
+    max-height:350px;
+    object-fit:cover;
+    border-radius:8px;
+    margin-top:12px;
+    box-shadow:0 4px 10px rgba(0,0,0,0.15);
+}
+footer {
+    text-align:center;
+    padding:25px;
+    color:#555;
+    font-size:14px;
+    border-top:1px solid #ddd;
+}
+
+/* Emoji bilan sarlavha qo‘shish */
+h2 span.emoji {font-size:1.5rem;}
+</style>
+</head>
+<body>
+
+<header>
+  <h1>📜 Qo‘ng‘irotlar davrida ijtimoiy-iqtisodiy hayot</h1>
+  <p>🏛 Xiva xonligi tarixi (XVIII–XIX asrlar)</p>
+</header>
+
+<main>
+
+<!-- 1-bo‘lim -->
+<div class="card">
+  <h2 onclick="toggle(this)"><span class="emoji">👑</span> Qo‘ng‘irotlar sulolasining hokimiyatga kelishi</h2>
+  <div class="content">
+    <p>1804-yilda Eltuzarxon taxtga chiqdi va Xiva xonligida qo‘ng‘irotlar sulolasi hokimiyatni egalladi.</p>
+    <p>Bu davrda markazlashgan boshqaruv shakllandi va siyosiy barqarorlik asta-sekin mustahkamlandi.</p>
+    <p>Muhammad Rahimxon I davrida xonlik hududlari kengaytirildi va boshqaruv tizimi kuchaytirildi.</p>
+    <p>Amaldorlar va ruhoniylar davlat ishlarida faol qatnashdi.</p>
+    <p>Siyosiy barqarorlik dehqonchilik va savdoning rivojlanishiga yordam berdi.</p>
+    <p>Hokimiyatning mustahkamlanishi madaniy va ma’naviy hayotni boyitdi.</p>
+    <p>Xonlik xalqaro savdoda faol ishtirok etdi.</p>
+    <p>Markaziy hokimiyat kengashlari davlat ishlarini boshqardi.</p>
+    <p>Davlat va hududiy boshqaruv tizimi tartibga solindi.</p>
+    <p>Xonlik davrida yangi qonun va soliq tizimi joriy qilindi.</p>
+    <img src="https://drive.google.com/uc?id=1Pog5htt_RehvcRNhOmEqkrYbznLIV665" alt="Qo‘ng‘irotlar sulolasi">
+  </div>
+</div>
+
+<!-- 2-bo‘lim -->
+<div class="card">
+  <h2 onclick="toggle(this)"><span class="emoji">👥</span> Ijtimoiy qatlamlar va jamiyat tuzilishi</h2>
+  <div class="content">
+    <p>Xiva jamiyati qatlamlarga bo‘lingan edi: xon, amaldorlar va ruhoniylar yuqori pog‘onada turardi.</p>
+    <p>Oddiy xalq – dehqonlar va hunarmandlar – asosiy ijtimoiy qatlamni tashkil qilgan.</p>
+    <p>Yersiz dehqonlar va qullar qishloq xo‘jaligi ishlarida faol ishtirok etgan.</p>
+    <p>Ruhoniylar sud ishlarida va diniy marosimlarda yetakchi bo‘lgan.</p>
+    <p>Amaldorlar yer va soliq tizimini nazorat qilgan.</p>
+    <p>Fuqarolar kunlik hayotda bozor va ishlar bilan shug‘ullangan.</p>
+    <p>Har bir qatlam o‘z majburiyati va huquqlariga ega edi.</p>
+    <p>Ijtimoiy tabaqalar barqarorlikni ta’minlagan.</p>
+    <p>Jamiyatning har bir qatlami iqtisodiy va madaniy hayotda rol o‘ynagan.</p>
+    <p>Ulamolar va amaldorlar jamiyatni tartibga solishda faol ishtirok etgan.</p>
+    <img src="https://drive.google.com/uc?id=1Dx6jkxQQ8k0FR2RN8f1LJ6Oi7FGQCOY3" alt="Ijtimoiy qatlamlar">
+  </div>
+</div>
+
+<!-- 3-bo‘lim (video) -->
+<div class="card">
+  <h2 onclick="toggle(this)"><span class="emoji">📜</span> Yer egaligi va soliq tizimi</h2>
+  <div class="content">
+    <p>Davlat yerlari, xususiy mulk va vaqf yerlarining uch shakli mavjud edi.</p>
+    <p>Dehqonlar hosilning bir qismini soliq sifatida topshirgan.</p>
+    <p>Soliqlar pul, mahsulot va majburiy mehnat ko‘rinishida yig‘ilgan.</p>
+    <p>Soliq yig‘uvchilar me’yorni nazorat qilgan.</p>
+    <p>Davlat yerlari xonlik xazinasini to‘ldirishda muhim rol o‘ynagan.</p>
+    <p>Xususiy yer egalari xizmat evaziga yer olgan va meros sifatida qoldirgan.</p>
+    <p>Jamiyatda yer va soliq tizimi barqaror iqtisodiy asos yaratgan.</p>
+    <p>Urushlar va yirik qurilishlar soliqlarni oshirgan.</p>
+    <p>Qonuniy tartib soliq yig‘ishni samarali qilgan.</p>
+    <p>Xonlikning iqtisodiy siyosati hududlarni mustahkamlashga xizmat qilgan.</p>
+    <video controls>
+      <source src="https://drive.google.com/uc?export=download&id=1cGY92T3tPHv38CDETTkE5zxo7BUErvqM" type="video/mp4">
+      Sizning brauzeringiz video tagini qo‘llab-quvvatlamaydi.
+    </video>
+  </div>
+</div>
+
+<!-- 4-bo‘lim -->
+<div class="card">
+  <h2 onclick="toggle(this)"><span class="emoji">🌾</span> Qishloq xo‘jaligi va sug‘orish</h2>
+  <div class="content">
+    <p>Qishloq xo‘jaligi iqtisodiyotning asosini tashkil etgan.</p>
+    <p>Sug‘orma dehqonchilik orqali bug‘doy, sholi va paxta yetishtirilgan.</p>
+    <p>Amudaryodan chiqarilgan kanallar sug‘orishda muhim rol o‘ynagan.</p>
+    <p>Paxta va sholi eksport qilinib, xonlik daromadi oshirilgan.</p>
+    <p>Mirablar suv taqsimotini nazorat qilgan.</p>
+    <p>Dehqonlar qo‘l mehnati bilan yuqori hosil olishga erishgan.</p>
+    <p>Qishloq xo‘jaligi aholining turmush darajasini belgilagan.</p>
+    <p>Yangi kanallar qazish va eskilarini ta’mirlash ishlari kengaytirilgan.</p>
+    <p>Sug‘orish tizimi davlat nazoratida bo‘lgan.</p>
+    <p>Xonlik sug‘orish orqali hududlarni boyitgan.</p>
+    <img src="https://drive.google.com/uc?id=1xvSaRIBdEMTe9YhA16ih2ChC25TWbIDS" alt="Sug‘orish tizimi">
+  </div>
+</div>
+
+<!-- 5-bo‘lim -->
+<div class="card">
+  <h2 onclick="toggle(this)"><span class="emoji">🛠️</span> Hunarmandchilik va savdo-sotiq</h2>
+  <div class="content">
+    <p>Kulolchilik, zargarlik va yog‘och o‘ymakorligi rivojlangan.</p>
+    <p>Xiva mahsulotlari tashqi bozorga chiqarilgan.</p>
+    <p>Hunarmandlar kasbiy uyushmalarda ishlagan.</p>
+    <p>Ichki bozorlarda savdo va yangiliklar almashilgan.</p>
+    <p>Paxta, gilam va teri asosiy savdo mahsulotlari bo‘lgan.</p>
+    <p>Bozorlarda vazn-o‘lchov birliklari nazorat qilingan.</p>
+    <p>Savdo xonlik iqtisodiyotini rivojlantirishga xizmat qilgan.</p>
+    <p>Shaharlar hunarmandchilik markaziga aylangan.</p>
+    <p>Xiva xalqaro savdo aloqalarini mustahkamladi.</p>
+    <p>Mahalliy mahsulotlar sanoat va hunarmandchilik orqali eksport qilingan.</p>
+    <img src="https://drive.google.com/uc?id=1uwwz3d-oY1_XfVrnMINd92cNjYMmxmK5" alt="Hunarmandchilik">
+  </div>
+</div>
+
+<!-- 6-bo‘lim -->
+<div class="card">
+  <h2 onclick="toggle(this)"><span class="emoji">🏠</span> Aholining turmush tarzi</h2>
+  <div class="content">
+    <p>Aholi sodda hayot kechirgan. Uylar paxsadan qurilgan.</p>
+    <p>Bozor va masjidlar ijtimoiy hayot markazi bo‘lgan.</p>
+    <p>Milliy taomlar va bayramlar kundalik hayotda muhim o‘rin egallagan.</p>
+    <p>Shahar aholisi ichki hovlisi bo‘lgan uylarda yashagan.</p>
+    <p>Kiyinish uslubi mahalliy an’analar bilan bog‘langan.</p>
+    <p>Oilaviy va diniy marosimlar madaniyatni boyitgan.</p>
+    <p>Cholg‘u asboblari va xalq o‘yinlari kundalik hayotning ajralmas qismi bo‘lgan.</p>
+    <p>Har bir uy oilaviy an’analarni saqlagan.</p>
+    <p>Bolalar ta’lim va diniy tarbiya olgan.</p>
+    <p>Aholi qishloq va shahar ishlarida faol qatnashgan.</p>
+    <img src="https://drive.google.com/uc?id=1FQcxge0sYKdsXPVBFXF38pMkZgE6TmTj" alt="Turmush tarzi">
+  </div>
+</div>
+
+</main>
+
+<footer>
+  © 2026 | Ta’limiy tarixiy sahifa
+</footer>
+
+<script>
+function toggle(el) {
+    const content = el.nextElementSibling;
+    const isOpen = content.style.display === 'block';
+    document.querySelectorAll('.content').forEach(c => c.style.display = 'none');
+    content.style.display = isOpen ? 'none' : 'block';
+}
+</script>
+
+</body>
+</html>
+<!-- ➕ Qo‘shimcha tarixiy bo‘lim -->
+<div class="card">
+  <h2 onclick="toggle(this)">
+    <span class="emoji">📜</span> Qo‘ng‘irotlar: rivoyat va tarixiy haqiqat
+  </h2>
+
+  <div class="content" style="font-family:'Merriweather', serif;">
+
+    <h3>🏺 📖 Qadimiy rivoyat</h3>
+    <p>
+      🌙 Xorazm vohalarida asrlar davomida og‘izdan-og‘izga o‘tib kelgan rivoyatga ko‘ra,
+      Qo‘ng‘irotlar sulolasi hokimiyatga kelgan paytda yurt suvsizlik va tanqislikdan
+      aziyat chekkan. Kanallar qum bilan to‘lgan, dalalar esa hosilsiz qolgan.
+    </p>
+
+    <p>
+      🌊 Rivoyatda aytilishicha, Muhammad Rahimxon I bir kecha Amudaryo bo‘yiga chiqib,
+      suv oqimini jimjitlikda uzoq kuzatgan. Oy nuri suv yuzida yaltirab turgan paytda
+      u shunday degan emish:
+    </p>
+
+    <p style="text-align:center; font-style:italic;">
+      ✨ “⚔️ Davlat qilich bilan emas, 🌾 suv bilan mustahkam bo‘ladi.”
+    </p>
+
+    <p>
+      🛠️ Ertasiga xon mirablar, dehqonlar va amaldorlarni yig‘ib,
+      yangi kanallar qazish, eskilarini tozalash haqida farmon bergan.
+      Rivoyatlarga ko‘ra, suv taqsimotidagi adolatsizlik og‘ir jazolangan.
+    </p>
+
+    <p>
+      🏞️ Shu bois xalq orasida
+      <strong>“Qo‘ng‘irot xoni suvga xiyonat qilmagan”</strong>
+      degan hikmatli ibora paydo bo‘lgan.
+      Bu rivoyat Qo‘ng‘irotlar davrida sug‘orish tizimi haqiqatan rivojlanganini
+      tasdiqlovchi tarixiy faktlar bilan uyg‘unlashadi.
+    </p>
+
+    <hr>
+
+    <h3>📌 🏛️ Aniq tarixiy faktlar</h3>
+    <ul>
+      <li>👑 Qo‘ng‘irotlar Xiva xonligining <strong>so‘nggi sulolasi</strong> hisoblanadi.</li>
+      <li>📅 Sulola <strong>1804–1920-yillar</strong> oralig‘ida hukmronlik qilgan.</li>
+      <li>🧔‍♂️ Eltuzarxon Qo‘ng‘irotlar hokimiyatiga asos solgan.</li>
+      <li>⚖️ Muhammad Rahimxon I davrida markazlashgan boshqaruv kuchaygan.</li>
+      <li>💧 Mirab lavozimi davlat darajasidagi muhim mansab bo‘lgan.</li>
+      <li>🌾 Sug‘orish tizimi xon nazoratida olib borilgan.</li>
+      <li>🧵 Paxta va sholi asosiy iqtisodiy mahsulotlar bo‘lgan.</li>
+      <li>🛍️ Xiva Markaziy Osiyodagi yirik savdo markaziga aylangan.</li>
+      <li>🕌 Vaqf yerlari masjid va madrasalarni ta’minlagan.</li>
+      <li>📜 Xon farmonlari yozma hujjat sifatida rasmiylashtirilgan.</li>
+      <li>🧱 Xiva devorlari Qo‘ng‘irotlar davrida ta’mirlangan.</li>
+      <li>⚖️ Soliqlar qat’iy hisob asosida yig‘ilgan.</li>
+      <li>🏘️ Hunarmandlar alohida mahallalarda yashagan.</li>
+      <li>🎓 Ta’lim asosan madrasalarda olib borilgan.</li>
+      <li>🏺 Qo‘ng‘irot xonlari o‘zlarini mahalliy hukmdor sifatida ko‘rsatgan.</li>
+    </ul>
+
+ 
